@@ -5,7 +5,7 @@ resource "oci_identity_compartment" "_" {
 }
 
 locals {
-  compartment_id = ocid1.tenancy.oc1..aaaaaaaa3gb37esunvw2muyr5xkped6adqvoikdbv2iyhodx2462uj2auupa
+  compartment_id = ocid1.compartment.oc1..aaaaaaaalo4zcav7tzchej55l5voovn4pvfuv3kvyzndqnt7cxhvfcq3wsua
 }
 
 data "oci_identity_availability_domains" "_" {
